@@ -115,7 +115,7 @@ Languages： 中文 [English](README.md)
   // 这里正常会提示 Tomcat started on port(s): 10824 (http) with context path 就可以结束了
   
   // 如果这里提示  The container name "/chat2db" is already in use by container, 代表已经存在容器了 运行
-  dcoker run chat2db
+  docker run chat2db
   // 如果想更新chat2db 则需要先rm 再运行
   docker rm chat2db
 ```
